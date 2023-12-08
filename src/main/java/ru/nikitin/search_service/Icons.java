@@ -20,7 +20,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of close button")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findCloseAlt() {
@@ -33,7 +33,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of close button")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findCharArena() {
@@ -46,7 +46,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of character arena")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findFleetArena() {
@@ -59,7 +59,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of fleet arena")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findChooseBattle() {
@@ -72,7 +72,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of choose battle button")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findBattle() {
@@ -85,7 +85,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of battle button")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findSettings() {
@@ -98,7 +98,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of settings button")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findGiveUp() {
@@ -111,7 +111,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of give up button")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findYes() {
@@ -124,7 +124,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of yes button")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findChallenges() {
@@ -139,7 +139,7 @@ public class Icons {
                 .handleTimeout(true)
                 .setOffset(new Point(0, -140))
                 .setTimeout(15)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findCoupons() {
@@ -152,7 +152,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of coupons button")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findCouponsGW() {
@@ -166,7 +166,7 @@ public class Icons {
                 .setMsg("Coordinates of coupons gw button")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findSpendCoupons() {
@@ -179,7 +179,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of spend coupons button")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findNext() {
@@ -193,7 +193,7 @@ public class Icons {
                 .setMsg("Coordinates of next button")
                 .handleTimeout(true)
                 .setTimeout(15)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findHome() {
@@ -207,7 +207,7 @@ public class Icons {
                 .setMsg("Coordinates of home button")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findShips() {
@@ -221,7 +221,7 @@ public class Icons {
                 .setMsg("Coordinates of ships")
                 .handleTimeout(true)
                 .setTimeout(15)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findFleetChallenges() {
@@ -236,7 +236,7 @@ public class Icons {
                 .handleTimeout(true)
                 .setOffset(new Point(0, -100))
                 .setTimeout(15)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findGalacticBattles() {
@@ -250,7 +250,7 @@ public class Icons {
                 .setMsg("Coordinates of galactic battles")
                 .handleTimeout(true)
                 .setTimeout(15)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findParticipateGW() {
@@ -263,7 +263,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of participate in gw")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findReload() {
@@ -277,7 +277,7 @@ public class Icons {
                 .setMsg("Coordinates of reload")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findGet() {
@@ -291,7 +291,7 @@ public class Icons {
                 .setMsg("Coordinates of get button")
                 .handleTimeout(true)
                 .setTimeout(10)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findBack() {
@@ -304,7 +304,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("Coordinates of back button")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findSwgohIcon() {
@@ -318,7 +318,7 @@ public class Icons {
                 .setMsg("Coordinates of SWGOH icon")
                 .handleTimeout(true)
                 .setTimeout(3*60)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findObjectives() {
@@ -331,7 +331,7 @@ public class Icons {
                 .setClick(true)
                 .setMsg("This is objectives button!")
                 .handleTimeout(true)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 
     public static boolean findArenaTable() {
@@ -345,6 +345,6 @@ public class Icons {
                 .setMsg("Arena table here")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .find();
+                .find(FindObj.MODE_SINGLE_IMG);
     }
 }

@@ -154,9 +154,14 @@ public class CvUtils {
             int[] imgIntegerPixels = ((DataBufferInt)dataBuffer).getData();
 
             for(int p = 0; p < byteSize; p++) {
-                imgPixels[p*3 + 0] = (byte) ((imgIntegerPixels[p] & 0x00FF0000) >> 16);
+                //original order
+//                imgPixels[p*3 + 0] = (byte) ((imgIntegerPixels[p] & 0x00FF0000) >> 16);
+//                imgPixels[p*3 + 1] = (byte) ((imgIntegerPixels[p] & 0x0000FF00) >> 8);
+//                imgPixels[p*3 + 2] = (byte) (imgIntegerPixels[p] & 0x000000FF);
+
+                imgPixels[p*3 + 2] = (byte) ((imgIntegerPixels[p] & 0x00FF0000) >> 16);
                 imgPixels[p*3 + 1] = (byte) ((imgIntegerPixels[p] & 0x0000FF00) >> 8);
-                imgPixels[p*3 + 2] = (byte) (imgIntegerPixels[p] & 0x000000FF);
+                imgPixels[p*3 + 0] = (byte) ((imgIntegerPixels[p] & 0x000000FF));
             }
         }
 

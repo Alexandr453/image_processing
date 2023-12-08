@@ -299,14 +299,17 @@ public class BotScenario {
 
     public static void main(String[] args) throws Exception {
 
-//        blueStacksStart();
-//        Icons.findSwgohIcon();
-//        doCharArenaDaily();
-//        doFleetArenaDaily();
+        blueStacksStart();
+        Icons.findSwgohIcon();
+
+        doCharArenaDaily();
+        doFleetArenaDaily();
 //        doChallenges();
 //        doGalacticBattles();
-        doShipChallenges();
+//        doShipChallenges();
 
-        getRewards();
+//        getRewards();
+
+        LOG.info("Application is stopping, may be ViewPort still working...");
     }
 }

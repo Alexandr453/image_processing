@@ -22,7 +22,7 @@ public class Screens {
                 .setMsg("This is the arena screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isCharArenaScreen() {
@@ -36,7 +36,7 @@ public class Screens {
                 .setMsg("This is the character arena screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isFleetArenaScreen() {
@@ -50,7 +50,7 @@ public class Screens {
                 .setMsg("This is the fleet arena screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isSquadChoiceScreen() {
@@ -64,7 +64,7 @@ public class Screens {
                 .setMsg("This is the squad choice screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isFleetSquadChoiceScreen() {
@@ -78,7 +78,7 @@ public class Screens {
                 .setMsg("This is the fleet squad choice screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isBattleScreen() {
@@ -92,7 +92,7 @@ public class Screens {
                 .setMsg("This is the battle screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isShipsScreen() {
@@ -106,7 +106,7 @@ public class Screens {
                 .setMsg("This is the ships screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isFleetChallengesScreen() {
@@ -120,7 +120,7 @@ public class Screens {
                 .setMsg("This is the fleet challenges screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isChallengesScreen() {
@@ -134,7 +134,7 @@ public class Screens {
                 .setMsg("This is the challenges screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isBattleCouponsScreen() {
@@ -148,7 +148,7 @@ public class Screens {
                 .setMsg("This is the battle coupons screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isGalacticBattlesScreen() {
@@ -162,7 +162,7 @@ public class Screens {
                 .setMsg("This is the galactic battles screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isGalacticBattlesScreen2() {
@@ -176,7 +176,7 @@ public class Screens {
                 .setMsg("This is the galactic battles screen 2!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isDailyScreen() {
@@ -190,7 +190,7 @@ public class Screens {
                 .setMsg("This is the daily screen!")
                 .handleTimeout(true)
                 .setTimeout(30)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 
     public static boolean isMainScreen() {
@@ -204,6 +204,6 @@ public class Screens {
                 .setMsg("This is the main screen!")
                 .handleTimeout(true)
                 .setTimeout(60*5)
-                .findMAND();
+                .find(FindObj.MODE_AND);
     }
 }
